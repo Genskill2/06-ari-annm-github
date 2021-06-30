@@ -27,7 +27,7 @@ for(int j=0;j<100;j++)
              {
              word++;
              }
-           else (str[i] =='.')
+           if(str[i] =='.')
                  {  sent++;
                  }
     }
