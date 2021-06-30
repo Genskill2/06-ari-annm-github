@@ -27,7 +27,7 @@ for(int j=0;j<100;j++)
              {
              word++;
              }
-         if(str[i] =='.'|| str[i] == '!'|| str[i] == '?')
+           else(str[i] =='.'|| str[i] == '!'|| str[i] == '?')
                  {  sent++;
                  }
     }
