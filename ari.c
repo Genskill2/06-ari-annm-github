@@ -12,11 +12,10 @@ string ari(string a)
     int word=0;
  int sent=0;
 totChar=0;
- char ch='';
 for(int j=0;j<100;j++)
  {
-     printf("%s",a);
-    scanf("%s",&str[j]);
+     printf("%c",a);
+    scanf("%c",&str[j]);
     
  }
     for(int i=0; str[i] != '\0'; i++){
@@ -28,7 +27,7 @@ for(int j=0;j<100;j++)
              {
              word++;
              }
-             else(str[i]=='.'||str[i]== '!' || str[i]== '?')
+             else(str[i]=='.'||str[i]== '!'||str[i]== '?')
                  {  sent++;
                  }
     }
