@@ -5,16 +5,17 @@
 #include <cs50.h>
 string ari(string a)
 {    char str[500];
-    int i,totChar;
+    
+   int totChar;
     int word=0;
  int sent=0;
 totChar=0;
-for(int j=0;j<100;j++;
+for(int j=0;j<100;j++);
  {
     get_char(str[j]);
     
  }
-    for(i=0; str[i] != '\0'; i++){
+    for(int i=0; str[i] != '\0'; i++){
         if(str[i]!=' ')
         {
             totChar++;
@@ -60,8 +61,8 @@ for(int j=0;j<100;j++;
                  break;}
     case 14:{return("Professor");
               break;}
-    default:return("Cannot find ari");
-           break;
+    default:{return("Cannot find ari");
+           break;}
       }
     
     
