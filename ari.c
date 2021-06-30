@@ -3,6 +3,8 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
+#include<ctype.h>
+#include<math.h>
 string ari(string a)
 {    char str[500];
     
@@ -31,7 +33,8 @@ for(int j=0;j<100;j++)
                  }
     }
     float ar=(4.71*(totChar/word)+0.5*(word/sent) -21.43);
-    int roundari=int(-(-ar/1));
+    int roundari=ceil(ar);
+    
     switch (roundari)
     
     {
