@@ -66,7 +66,8 @@ for(int j=0;j<100;j++)
     case 14:{return("Professor");
               break;}
     default:{return("Cannot find ari");
-           break;}
+           break;
+            }
       }
     
     
