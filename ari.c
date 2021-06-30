@@ -23,11 +23,11 @@ for(int j=0;j<100;j++)
         {
             totChar++;
         }
-        if(isspace(str[i]))
+       else if(isspace(str[i]))
              {
              word++;
              }
-         if(str[i]=='.'|| str[i] == '!'|| str[i] == '?')
+         if(str[i] =='.'|| str[i] == '!'|| str[i] == '?')
                  {  sent++;
                  }
     }
