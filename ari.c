@@ -28,8 +28,8 @@ for(int j=0;j<100;j++)
              word++;
              }
           else
-             {  sent++;
-                 }
+               sent++;
+                 
     }
     float ar=(4.71*(totChar/word)+0.5*(word/sent) -21.43);
     int roundari=ceil(ar);
