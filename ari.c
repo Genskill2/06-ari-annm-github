@@ -10,6 +10,7 @@ string ari(string a)
     int word=0;
  int sent=0;
 totChar=0;
+ char ch='';
 for(int j=0;j<100;j++)
  {
      printf("%s",a);
@@ -21,7 +22,7 @@ for(int j=0;j<100;j++)
         {
             totChar++;
         }
-        else if(str[i]=='')
+        else if(isspace(str[i]))
              {
              word++;
              }
