@@ -13,7 +13,7 @@ totChar=0;
 for(int j=0;j<100;j++)
  {
      printf("%s",a);
-    scanf(%s,&str[j]);
+    scanf("%s",&str[j]);
     
  }
     for(int i=0; str[i] != '\0'; i++){
