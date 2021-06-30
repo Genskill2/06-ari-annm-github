@@ -10,9 +10,9 @@ string ari(string a)
     int word=0;
  int sent=0;
 totChar=0;
-for(int j=0;j<100;j++);
+for(int j=0;j<100;j++)
  {
-     printf(a);
+     printf("%s",a);
     scanf(%s,&str[j]);
     
  }
