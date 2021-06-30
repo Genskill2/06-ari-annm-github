@@ -12,7 +12,7 @@ string ari(string a)
 totChar=0;
 for(int j=0;j<100;j++);
  {
-    get_char(str[j]);
+    scanf(a,str[j]);
     
  }
     for(int i=0; str[i] != '\0'; i++){
