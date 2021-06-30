@@ -1,3 +1,5 @@
+#include<string.h>
+#include<stdio.h>
 string ari(string a)
 {    char str[500];
     int i,totChar;
