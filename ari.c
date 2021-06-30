@@ -1,7 +1,8 @@
 string ari(string a)
 {    char str[500];
     int i,totChar;
-    int word,sent;
+    int word=0;
+ int sent=0;
 totChar=0;
 for(int j=0;j<100;j++;
  {
@@ -22,7 +23,7 @@ for(int j=0;j<100;j++;
                  }
     }
     float ar=(4.71*(totChar/word)+0.5*(word/sent) -21.43);
-    int roundari=int(-(-ar//1));
+    int roundari=int(-(-ar/1));
     switch (roundari)
     
     {
