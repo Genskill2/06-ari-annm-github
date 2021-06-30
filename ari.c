@@ -14,7 +14,7 @@ string ari(string a)
 totChar=0;
 for(int j=0;j<100;j++)
  {
-     printf("%c",a);
+     printf("%s",a);
     scanf("%c",&str[j]);
     
  }
@@ -23,11 +23,11 @@ for(int j=0;j<100;j++)
         {
             totChar++;
         }
-        else if(isspace(str[i]))
+        if(isspace(str[i]))
              {
              word++;
              }
-             else(str[i]=='.'||str[i]== '!'||str[i]== '?')
+         if(str[i]=='.'|| str[i] == '!'|| str[i] == '?')
                  {  sent++;
                  }
     }
